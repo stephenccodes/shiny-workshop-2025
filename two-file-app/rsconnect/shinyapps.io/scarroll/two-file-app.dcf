@@ -1,0 +1,10 @@
+name: two-file-app
+title:
+username: scarroll
+account: scarroll
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14006545
+bundleId: 9802797
+url: https://scarroll.shinyapps.io/two-file-app/
+version: 1
