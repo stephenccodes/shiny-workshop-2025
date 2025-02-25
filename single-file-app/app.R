@@ -2,6 +2,7 @@
 library(shiny)
 library(tidyverse)
 library(palmerpenguins)
+library(bslib)
 
 # Filter penguins df for obs where body_mass)g >= 3000 & <= 4000 ----
 #body_mass_df <- penguins %>%
@@ -13,6 +14,14 @@ library(palmerpenguins)
 
 # Create user interface ----
 ui <- fluidPage(
+
+  theme = bs_theme( # EX: (bootswatch = "solar")
+    bg = "#A36F6F",
+    fg = "#FDF7F7",
+    primary = "#483132",
+    base_font = font_google("Pacifico")
+    ),
+
   # App title ----
   tags$h1("My App Title"),
 
